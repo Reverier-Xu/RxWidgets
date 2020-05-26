@@ -95,9 +95,9 @@ if __name__ == '__main__':
     Win = QtWidgets.QMainWindow()
     Win.setWindowTitle('RPushButton')
     widget = QtWidgets.QWidget()
-    button = RPushButton(widget, 'Dark', 'hello')
+    button = RPushButton(widget, 'Light', 'hello')
     button.setGeometry(QtCore.QRect(100, 100, 100, 40))
-    button2 = RMenuButton(widget, 'Dark', 'menu')
+    button2 = RMenuButton(widget, 'Light', 'menu')
     button2.setGeometry(QtCore.QRect(100, 200, 100, 40))
 
     Win.setCentralWidget(widget)
