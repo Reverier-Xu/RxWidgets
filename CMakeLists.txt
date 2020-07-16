@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(RxWidgets LANGUAGES CXX)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+find_package(Qt5 REQUIRED COMPONENTS Core Gui Widgets)
+add_subdirectory(src)

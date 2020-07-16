@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libRxWidgets.a CMakeFiles/RxWidgets.dir/RxWidgets_autogen/mocs_compilation.cpp.o CMakeFiles/RxWidgets.dir/animatedwidget.cpp.o
+/usr/bin/ranlib ../lib/libRxWidgets.a
