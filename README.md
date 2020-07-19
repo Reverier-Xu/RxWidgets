@@ -12,3 +12,6 @@ UI interface library redefined based on Qt5, for ICTFE/ISAE used only.
 
 使用时只需要传入是否为水平展开, 折叠时的长度, 展开时的长度即可.
 
+需要展开或者折叠`widget`时, 只需要调用`widget->doFold()`.
+
+`doFold()`函数同时是一个槽. 你可以将按钮点击事件连接到这个槽上.
